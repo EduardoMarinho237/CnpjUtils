@@ -6,6 +6,8 @@ API RESTful para manipulação de CNPJs, tendo geração, validação e análise
 
 Após ler a minha descrição detalhada do projeto, você já pode estar dando uma olhadinha nele, fiz deploy no Render e a ui do swagger está disponível em [https://cnpjutils.onrender.com/swagger-ui/index.html]
 
+Obs: Talvez demore um pouco para carregar, pois o projeto está em uma plataforma de deploy grátis por enquanto, então se ficar um tempo sem requisição, a API precisa subir novamente, mas é só aguardar alguns segundos!
+
 ## A Evolução do CNPJ: Do Numérico ao Alfanumérico
 
 O CNPJ serve como identidade fiscal das empresas brasileiras há décadas, utilizando exclusivamente dígitos numéricos em sua estrutura. Com o crescimento exponencial de novas empresas no país, o sistema numérico tradicional começou a mostrar sinais de esgotamento.
