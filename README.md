@@ -2,6 +2,10 @@
 
 API RESTful para manipulação de CNPJs, tendo geração, validação e análise. Compatível com o formato tradicional numérico e preparada para o novo padrão alfanumérico que será implementado pela Receita Federal.
 
+## Deploy
+
+Após ler a minha descrição detalhada do projeto, você já pode estar dando uma olhadinha nele, fiz deploy no Render e a ui do swagger está disponível em [https://cnpjutils.onrender.com/swagger-ui/index.html]
+
 ## A Evolução do CNPJ: Do Numérico ao Alfanumérico
 
 O CNPJ serve como identidade fiscal das empresas brasileiras há décadas, utilizando exclusivamente dígitos numéricos em sua estrutura. Com o crescimento exponencial de novas empresas no país, o sistema numérico tradicional começou a mostrar sinais de esgotamento.
