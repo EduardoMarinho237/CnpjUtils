@@ -1,5 +1,6 @@
 package com.eduardomarinho.cnpjutils.application.validate;
 
+import com.eduardomarinho.cnpjutils.properties.RateLimitProperties;
 import com.eduardomarinho.cnpjutils.response.StandardResponse;
 import com.eduardomarinho.cnpjutils.response.ValidateResponse;
 import com.eduardomarinho.cnpjutils.response.ValidateBatchResponse;
@@ -36,6 +37,9 @@ class ValidateControllerTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @MockBean
+    private RateLimitProperties rateLimitProperties;
 
     @BeforeEach
     void setUp() {

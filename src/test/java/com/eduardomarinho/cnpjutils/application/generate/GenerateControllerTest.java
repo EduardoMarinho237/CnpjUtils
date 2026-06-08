@@ -1,5 +1,6 @@
 package com.eduardomarinho.cnpjutils.application.generate;
 
+import com.eduardomarinho.cnpjutils.properties.RateLimitProperties;
 import com.eduardomarinho.cnpjutils.response.StandardResponse;
 import com.eduardomarinho.cnpjutils.response.GenerateResponse;
 import com.eduardomarinho.cnpjutils.response.BatchGenerateResponse;
@@ -36,6 +37,9 @@ class GenerateControllerTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @MockBean
+    private RateLimitProperties rateLimitProperties;
 
     @BeforeEach
     void setUp() {
