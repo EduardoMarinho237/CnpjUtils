@@ -1,5 +1,6 @@
 package com.eduardomarinho.cnpjutils.application.check;
 
+import com.eduardomarinho.cnpjutils.properties.RateLimitProperties;
 import com.eduardomarinho.cnpjutils.response.StandardResponse;
 import com.eduardomarinho.cnpjutils.response.CheckResponse;
 import com.eduardomarinho.cnpjutils.response.BatchCheckResponse;
@@ -35,6 +36,9 @@ class CheckControllerTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @MockBean
+    private RateLimitProperties rateLimitProperties;
 
     @BeforeEach
     void setUp() {
